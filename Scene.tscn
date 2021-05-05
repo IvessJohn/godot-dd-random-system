@@ -1,0 +1,10 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scene.gd" type="Script" id=1]
+[ext_resource path="res://items/item_Rare.tres" type="Resource" id=3]
+[ext_resource path="res://items/item_Uncommon.tres" type="Resource" id=4]
+[ext_resource path="res://items/item_Common.tres" type="Resource" id=5]
+
+[node name="Scene" type="Node"]
+script = ExtResource( 1 )
+items_array = [ ExtResource( 5 ), ExtResource( 4 ), ExtResource( 3 ) ]

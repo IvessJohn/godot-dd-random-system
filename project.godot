@@ -8,6 +8,22 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Resource",
+"class": "RandomItem",
+"language": "GDScript",
+"path": "res://RandomItem.gd"
+}, {
+"base": "Node",
+"class": "RandomPicker",
+"language": "GDScript",
+"path": "res://RandomPicker.gd"
+} ]
+_global_script_class_icons={
+"RandomItem": "",
+"RandomPicker": ""
+}
+
 [application]
 
 config/name="D&D Random Picker"
@@ -19,5 +35,4 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
-quality/driver/driver_name="GLES3"
 environment/default_environment="res://default_env.tres"
